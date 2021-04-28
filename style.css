@@ -3,18 +3,18 @@
 body {
   background-color: #FFEFD3;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  color:rgb(63, 63, 63);
   font-size: 24px;
   line-height: 32px;
 }
 
 h1 {
-  color: white;
+  color: rgb(63, 63, 63);
   font-weight: 700;
 }
 
 h2 {
-  color: #ffffff;
+  color: rgb(63, 63, 63);
   font-weight: 300;
 }
 
@@ -28,6 +28,10 @@ a {
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
+p {
+  padding: 20px;
+}
+
 a:hover {
   background-color: rgb(1, 84, 143);
 }
@@ -36,6 +40,7 @@ img {
   border-radius: 50%;
   width: 300px;
   box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  border: thick solid #B49082;
 }
 
 /* .container {
@@ -66,7 +71,7 @@ img {
 }
 
 .card-white {
-  background: #abbdc9;
+  background: white;
   padding: 20px;
   margin: 32px;
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
@@ -75,6 +80,7 @@ img {
 
 .img-circle {
   border-radius: 50%;
+
 }
 
 .list-inline > li {
