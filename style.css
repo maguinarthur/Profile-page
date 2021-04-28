@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 
 body {
-  background-color: #FFEFD3;
+  background-image: url("images/giphy.gif");
   font-family: 'Ubuntu', sans-serif;
   color:rgb(63, 63, 63);
   font-size: 24px;
@@ -36,16 +36,12 @@ a:hover {
   background-color: rgb(1, 84, 143);
 }
 
-img {
+.img-circle {
   border-radius: 50%;
   width: 300px;
   box-shadow: 0 10px 30px rgba(0,0,0,.3);
   border: thick solid #B49082;
 }
-
-/* .container {
-  margin: 0 auto; /* This automatically sets left/right margins */
-/* } */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -78,11 +74,6 @@ img {
   border-radius: 4px;
 }
 
-.img-circle {
-  border-radius: 50%;
-
-}
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 5px;
@@ -90,5 +81,24 @@ img {
 
 .list-inline {
   padding: 0;
+}
+
+#gif1 {
+  width: 280px;
+}
+
+#gif2 {
+  width: 100px;
+  padding-bottom: 30px;
+}
+
+#gif3 {
+  width: 240px;
+  padding-bottom: 10px;
+}
+
+#gif4 {
+  width: 240px;
+  padding-bottom: 10px;
 }
 
